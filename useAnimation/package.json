@@ -1,0 +1,39 @@
+{
+  "name": "useAnimation",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/react-hooks": "^3.4.2",
+    "babel-jest": "^26.6.3",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "jest": "^26.6.3",
+    "parcel": "^2.0.0-alpha.3.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "nano-react-app"
+    ]
+  }
+}

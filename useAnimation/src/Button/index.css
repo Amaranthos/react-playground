@@ -1,0 +1,10 @@
+.button {
+  transition-property: background-color, transform;
+  transition-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+.animate {
+  background-color: red;
+  transform: translateY(50px);
+}

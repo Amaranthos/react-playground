@@ -1,0 +1,73 @@
+Arguments: 
+  /Users/josh/.nvm/versions/node/v13.0.1/bin/node /usr/local/bin/yarn add -D firebase-import-export
+
+PATH: 
+  /Users/josh/.nvm/versions/node/v13.0.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/josh/.nvm/versions/node/v13.0.1/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.0.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/firebase-import-export: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1198:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "dnd",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.5.5",
+      "babel-preset-nano-react-app": "^0.1.0",
+      "parcel-bundler": "^1.12.3"
+    },
+    "babel": {
+      "presets": [
+        "nano-react-app"
+      ],
+      "plugins": [
+        [
+          "@babel/plugin-proposal-class-properties",
+          {
+            "loose": true
+          }
+        ],
+        [
+          "@babel/plugin-transform-react-jsx",
+          {
+            "pragmaFrag": "React.Fragment"
+          }
+        ]
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

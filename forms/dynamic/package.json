@@ -1,0 +1,23 @@
+{
+  "name": "dynamic",
+  "version": "0.1.0",
+  "description": "https://www.aaron-powell.com/posts/2020-12-10-dynamic-forms-with-react-hooks/",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "parcel": "^2.0.0-alpha.3.2"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
